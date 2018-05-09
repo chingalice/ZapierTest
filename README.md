@@ -1,5 +1,5 @@
-# Zapier Test
-Take Home Assignment for Marketing Data Analyst Position
+# Zapier Marketing Data Analyst
+Take Home Assignment
 
 
 ## Part One - Data Exploration
@@ -12,7 +12,7 @@ I tried the following tools:
 * Tableau Public - I wanted to use it to do visualizations but they don't have a way to connect to Redshift unfortunately.
 * Mode Analytics Studio - after no success with Looker, this was the next one I thought of using as I have a mode account. And Muness also recommends trying this one out. 
 
-Please see Part1SQL.sql file to see query summaries.
+Please see Part1SQL.sql file for query summaries.
 
 
 ## Part Two - ETL
