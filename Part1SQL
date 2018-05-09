@@ -1,5 +1,8 @@
-#Done in DataGrid
-#Get a count of the number of records and the fields
+#Done in DataGrip
+
+# Query 1 
+
+# Get a count of the number of records and the fields
 
 SELECT count(*)
 from tasks_used_da
