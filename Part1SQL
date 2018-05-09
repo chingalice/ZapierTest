@@ -1,0 +1,16 @@
+#Done in DataGrid
+#Get a count of the number of records and the fields
+
+SELECT count(*)
+from tasks_used_da
+;
+
+-- Returned 10M records with 4 fields (date, user_id, account_id, sum_tasks_used)
+
+
+
+SELECT table_name AS "Tables", 
+round(((data_length + index_length) / 1024 / 1024), 2) "Size in MB" 
+FROM information_schema.TABLES 
+WHERE table_schema = "YOU+TABLE+NAME+HERE"
+ORDER BY (data_length + index_length) DESC;
