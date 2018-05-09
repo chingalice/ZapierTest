@@ -6,7 +6,7 @@ Take Home Assignment
 
 I tried the following tools:
 
-* DataGrip - Rationale for using this is to get familiar with what Zapier team uses. It was easy to download, connect to Redshift, and do quick summaries on the dataset (see ZapierPart1.sql).
+* DataGrip - Rationale for using this is to get familiar with what Zapier team uses. It was easy to download, connect to Redshift, and do quick summaries on the dataset (see zapierpart1.sql).
 * Matillion ETL - same rationale. However, I didn't get to setup the trial account but saw that it's somewhat similar to Alteryx.
 * Looker - I am a Looker fan with no Looker account. They don't have trial account and it would take time to go through demo and set things up. 
 * Tableau Public - I wanted to use it to do visualizations but they don't have a way to connect to Redshift unfortunately.
