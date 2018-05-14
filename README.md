@@ -10,7 +10,7 @@ Tools I tried:
 * Matillion ETL - same rationale. However, I didn't get to setup the trial account.
 * Looker - no Looker account and it would take time to go through demo and set things up.  
 * Tableau Public - No connection to Redshift.
-* Mode Analytics Studio - used my Mode account to access data and run SQL. Muness also recommends trying this one out. 
+* Mode Analytics Studio/Excel - used it to access data and run visualizations. 
 
 
 ## Part Two - ETL
@@ -24,7 +24,7 @@ Tools I tried:
 4) Evaluated whether the user is active or churn (boolean variable).
 
 
-* Please see zapierpart2.sql for more details. 
+* See zapierpart2.sql for more details. 
 
 
 
@@ -32,5 +32,5 @@ Tools I tried:
 
 * Tool used: Mode Analytics Studio
 
-* Please see zapierpart3 for more details and screenshots.
+* See zapierpart3.md for more details and screenshots.
 
