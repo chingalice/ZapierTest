@@ -4,21 +4,33 @@ Take Home Assignment
 
 ## Part One - Data Exploration
 
-I tried the following tools:
+Tools I tried: 
 
 * DataGrip - Rationale for using this is to get familiar with what Zapier team uses. It was easy to download, connect to Redshift, and do quick summaries on the dataset (see zapierpart1.sql).
-* Matillion ETL - same rationale. However, I didn't get to setup the trial account but saw that it's somewhat similar to Alteryx.
-* Looker - I am a Looker fan with no Looker account. They don't have trial account and it would take time to go through demo and set things up. 
-* Tableau Public - I wanted to use it to do visualizations but they don't have a way to connect to Redshift unfortunately.
-* Mode Analytics Studio - after no success with Looker, this was the next one I thought of using as I have a mode account. And Muness also recommends trying this one out. 
-
+* Matillion ETL - same rationale. However, I didn't get to setup the trial account.
+* Looker - no Looker account and it would take time to go through demo and set things up.  
+* Tableau Public - No connection to Redshift.
+* Mode Analytics Studio - used my Mode account to access data and run SQL. Muness also recommends trying this one out. 
 
 
 ## Part Two - ETL
 
+* Tools used: Mode Analytics Studio and DataGrip
+* Process: 
+
+1) I took 3 sample user IDs to map out what it would look like in Excel. 
+2) Created a column on "Date" listing all dates from Jan 1 to Jun 1, 2017.
+3) Queried on these 3 user IDs with their activities, export, and did a vlookup in Excel to map it to the date column 
+4) Evaluated whether the user is active or churn (boolean variable).
+
+
+* Please see zapierpart2.sql for more details. 
 
 
 
 ## Part Three - Data Analysis and Visualizations
 
+* Tool used: Mode Analytics Studio
+
+* Please see zapierpart3 for more details and screenshots.
 
